@@ -1,11 +1,11 @@
 function Navbar () {
     return (
         <nav>
-            <a href="#inicio">Inicio</a>
-            <a href="#sobre-mi">Sobre mi</a>
-            <a href="#experiencia">Experiencia</a>
-            <a href="#tecnologia">Tecnologias</a>
-            <a href="#contacto">Contacto / Redes</a>
+            <a href="#home">Inicio</a>
+            <a href="#about-me">Sobre mi</a>
+            <a href="#experience">Experiencia</a>
+            <a href="#technology">Tecnologias</a>
+            <a href="#contact-networks">Contacto / Redes</a>
         </nav>
     )
 }
