@@ -1,6 +1,6 @@
 function Home() {
     return (
-        <section id="inicio">
+        <section id="home">
             <h1>Mariano Hasan</h1>
             <h2>Analista de Sistemas</h2>
             <a>
