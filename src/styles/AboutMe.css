@@ -4,10 +4,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 
   padding: 6rem 1.5rem;
   background-color: #111827;
   color: #e5e7eb;
+  text-align: center;
 }
 
 #about-me h2 {
@@ -20,14 +22,18 @@
 }
 
 #about-me h2::after {
-  content: '';
-  display: block;
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  transform: translateX(-50%);
+
   width: 60%;
   height: 3px;
-  margin-top: 8px;
 
   background-color: #22c55e;
   box-shadow: 0 0 8px rgba(34, 197, 94, 0.6);
+  border-radius: 2px;
 }
 
 #about-me p {
