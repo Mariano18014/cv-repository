@@ -1,3 +1,5 @@
+import '../styles/ContactNetworks.css'
+
 function ContactNetworks() {
     return (
         <section id="contact-networks">
