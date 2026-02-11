@@ -1,0 +1,76 @@
+#experience {
+  min-height: 100vh;
+
+  padding: 6rem 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: #0b0f0e;
+  color: #e5e7eb;
+}
+
+#experience h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+
+  position: relative;
+  display: inline-block;
+}
+
+#experience h2::after {
+  content: '';
+  display: block;
+  width: 60%;
+  height: 3px;
+  margin-top: 8px;
+
+  background-color: #22c55e;
+  box-shadow: 0 0 8px rgba(34, 197, 94, 0.6);
+}
+
+#experience article {
+  background-color: #0f172a;
+  padding: 2rem;
+  border-radius: 12px;
+
+  border: 1px solid rgba(34, 197, 94, 0.15);
+
+  max-width: 850px;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#experience article:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 20px rgba(34, 197, 94, 0.15);
+}
+
+#experience h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #22c55e;
+}
+
+#experience span {
+  display: block;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+  color: #9ca3af;
+}
+
+#experience ul {
+  padding-left: 1.2rem;
+}
+
+#experience li {
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
+  color: #e5e7eb;
+}
+
+#experience li::marker {
+  color: #22c55e;
+}
