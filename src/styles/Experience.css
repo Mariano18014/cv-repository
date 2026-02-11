@@ -6,9 +6,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 
   background-color: #0b0f0e;
   color: #e5e7eb;
+
+  text-align: center;
 }
 
 #experience h2 {
@@ -21,14 +24,18 @@
 }
 
 #experience h2::after {
-  content: '';
-  display: block;
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  transform: translateX(-50%);
+
   width: 60%;
   height: 3px;
-  margin-top: 8px;
 
   background-color: #22c55e;
   box-shadow: 0 0 8px rgba(34, 197, 94, 0.6);
+  border-radius: 2px;
 }
 
 #experience article {
@@ -39,6 +46,10 @@
   border: 1px solid rgba(34, 197, 94, 0.15);
 
   max-width: 850px;
+  width: 100%;
+  margin: 0 auto;
+
+  text-align: left;
 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
