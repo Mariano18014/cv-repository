@@ -23,6 +23,7 @@ html, body {
 }
 
 body {
+  font-family: 'Inter', sans-serif;
   margin: 0;
   background-color: #0b0f0e;
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
