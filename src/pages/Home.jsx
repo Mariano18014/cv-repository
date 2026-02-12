@@ -10,8 +10,8 @@ function Home() {
                 con interés en crecer profesionalmente dentro del mundo IT.
             </a>
 
-            <a id="experiencia">
-                Ver experiencia  
+            <a href="#experience" className="btn-experience">
+                Ver experiencia
             </a>
         </section>
     )
