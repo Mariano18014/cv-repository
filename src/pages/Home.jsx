@@ -5,10 +5,10 @@ function Home() {
         <section id="home">
             <h1>Mariano Hasan</h1>
             <h2>Analista de Sistemas</h2>
-            <a>
-                Desarrollador junior enfocado en desarrollo web y mobile,
-                con interés en crecer profesionalmente dentro del mundo IT.
-            </a>
+            <p>
+                Soy <strong>Analista de Sistemas</strong> con enfoque en 
+                <strong> desarrollo web y mobile</strong>, interesado en crecer dentro del mundo IT.
+            </p>
 
             <a href="#experience" className="btn-experience">
                 Ver experiencia

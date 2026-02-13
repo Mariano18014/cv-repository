@@ -27,35 +27,11 @@
   margin-bottom: 0.5rem;
 }
 
-#home a:first-of-type {
+#home p {
   max-width: 620px;
   font-size: 1rem;
   line-height: 1.6;
   color: #9ca3af;
-}
-
-#home a#experiencia {
-  margin-top: 2rem;
-
-  padding: 0.75rem 1.5rem;
-
-  border: 1px solid #22c55e;
-  border-radius: 8px;
-
-  color: #22c55e;
-  text-decoration: none;
-  font-weight: 500;
-
-  transition: 
-    background-color 0.3s ease,
-    color 0.3s ease,
-    box-shadow 0.3s ease;
-}
-
-#home a#experiencia:hover {
-  background-color: #22c55e;
-  color: #0b0f0e;
-  box-shadow: 0 0 12px rgba(34, 197, 94, 0.6);
 }
 
 .btn-experience {
@@ -63,9 +39,10 @@
   margin-top: 2rem;
   padding: 0.8rem 1.6rem;
 
-  background-color: #22c55e;
-  color: #0b0f0e;
+  background-color: transparent;
+  border: 1px solid #22c55e;
 
+  color: #22c55e;
   font-weight: 600;
   text-decoration: none;
   border-radius: 8px;
@@ -74,6 +51,8 @@
 }
 
 .btn-experience:hover {
+  background-color: #22c55e;
+  color: #0b0f0e;
+  box-shadow: 0 0 12px rgba(34, 197, 94, 0.6);
   transform: translateY(-2px);
-  box-shadow: 0 0 1
 }
