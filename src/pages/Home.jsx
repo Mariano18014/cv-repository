@@ -4,14 +4,17 @@ function Home() {
     return (
         <section id="home">
             <h1>Mariano Hasan</h1>
-            <h2>Analista de Sistemas</h2>
+
+            <h2>Backend Developer · Analista de Sistemas</h2>
+
             <p>
-                Soy <strong>Analista de Sistemas</strong> con enfoque en 
-                <strong> desarrollo web y mobile</strong>, interesado en crecer dentro del mundo IT.
+                Orientado al desarrollo <strong>backend</strong>, creación de 
+                <strong> APIs REST</strong> y manejo de bases de datos, 
+                construyendo proyectos para seguir creciendo profesionalmente en el área IT.
             </p>
 
             <a href="#experience" className="btn-experience">
-                Ver experiencia
+                Ver proyectos
             </a>
         </section>
     )
